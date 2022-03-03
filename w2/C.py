@@ -6,30 +6,33 @@ def reverse_list(integers):
     '''
     Reverse the list (in-place)
     '''
-    pass
+    integers.reverse()
 
 def minimum(integers):
     '''
     Find and return the lowest number in the list
     '''
-    pass
+    return min(integers)
 
 def sum_list(integers):
     '''
     Return the sum of all numbers
     '''
-    pass
+    return sum(integers)
 
 '''
 Testing below!
 '''
 
 def test_reverse():
-    pass
+    random_list = [1, 2, 3]
+    reverse_list(random_list)
+    assert random_list == [3, 2, 1]
 
 def test_min():
-    pass
+    random_list = [1, 2, 3]
+    assert minimum(random_list) == 1
 
 def test_sum():
-    pass
-
+    random_list = [1, 2, 3]
+    assert sum_list(random_list) == 6

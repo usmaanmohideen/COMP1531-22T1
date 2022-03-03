@@ -2,8 +2,11 @@
 Write a python program vowel.py that
 
 takes in a series of words on a single line in from STDIN,
+
 passes that input string into a function called find_vowels,
-which then return the frequency of how often each vowel appears.
+
+which then returns the frequency of how often each vowel appears.
+
 This object is then outputted (however you think works best).
 
 Assume all input is lowercase or uppercase letters, or spaces.

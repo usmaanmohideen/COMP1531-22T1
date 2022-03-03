@@ -19,7 +19,7 @@ def wondrous(start):
     while current != 1:
         sequence.append(current)
         if (current % 2 == 0):
-            current /= 2
+            current //= 2
         else:
             current = (current * 3) + 1
 

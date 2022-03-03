@@ -1,5 +1,6 @@
 # Tutorial 3
 
+    find_vowels(words)
 ## A. Debugging
 
 **[This exercise links to Lab03 - Wondrous](https://cgi.cse.unsw.edu.au/~cs1531/redirect/?path=COMP1531/22T1/students/_/lab03_wondrous)**.
@@ -45,6 +46,7 @@ def bar(txt):
 
 name = 'Ralph'
 def editName(string):
+    global name
     name = string
 def getName():
     return name

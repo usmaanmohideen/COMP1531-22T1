@@ -11,5 +11,4 @@ You will have around 10 minutes to share:
     Any challenges you've faced already after being in a group
 
 After that time, share thoughts among the class.
-
 '''

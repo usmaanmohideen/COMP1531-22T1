@@ -18,9 +18,12 @@ def check_password(password):
 
 
 def test_horrible():
-    pass
+    assert check_password("password") == "Horrible password"
+    assert check_password("iloveyou") == "Horrible password"
+    assert check_password("123456") == "Horrible password"
 
 
 def test_less_than_eight():
-    pass
+    assert check_password("123455") == "Poor password"
+
 
