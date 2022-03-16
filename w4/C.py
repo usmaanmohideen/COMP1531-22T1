@@ -43,12 +43,12 @@ def test_day_to_year():
 
     Adding 731 days. This can be split into 365 + 365 + 1 days.
     The first 365 days take us to 31/12/1970.
-    65 days after this we will be on 31/12/1971
+    365 days after this we will be on 31/12/1971
     (1971 is not a leap year either).
     1 day after this we will be on 01/01/1972.
 
 4. Test4:
-        assert day_to_year(365 + 365 + 366 + 1) == 1973 # "January 1st 1973"
+        assert day_to_year(365 + 365 + 366) == 31st Dec [1972]
 
     Adding 1097 days. This can be split into
     365 + 365 + 366 + 1 days. Since 1972 is a leap year,

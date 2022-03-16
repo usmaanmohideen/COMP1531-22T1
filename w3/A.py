@@ -23,4 +23,5 @@ def wondrous(start):
         else:
             current = (current * 3) + 1
 
+    sequence.append(current)
     return sequence

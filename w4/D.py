@@ -27,3 +27,12 @@ class Tamagotchi(builtins.object)
  |      Decreases the Tamagotchi's boredom level.
 '''
 
+usmaan = Tamagotch(Usmaan)
+sotrage = {}
+
+command = input("Enter name and command seperated by a space: ")
+name = ...
+action = ...
+
+if command == 'feed':
+    storage[name].feed()

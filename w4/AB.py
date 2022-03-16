@@ -1,5 +1,4 @@
 def check_password(password):
-
     if password == "password" or password == "iloveyou" or password == "123456":
         return "Horrible password"
     elif (len(password) >= 12 and any(x.isupper() for x in password) and
